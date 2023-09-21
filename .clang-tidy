@@ -1,0 +1,30 @@
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+# clang-tidy --list-checks -checks=\*
+---
+Checks: >
+  -abseil-*,
+  -altera-*,
+  -android-*,
+  boost-*,
+  bugprone-*,
+  -cert-*,
+  -clang-analyzer-*,
+  clang-diagnostic-*,
+  -concurrency-*,
+  cppcoreguidelines-*,
+  -darwin-*,
+  -fuchsia-*,
+  -google-*,
+  -hicpp-*,
+  -linuxkernel-*,
+  -llvm-*,
+  -misc-*,
+  modernize-*,
+  -mpi-*,
+  -objc-*,
+  -openmp-*,
+  -performance-*,
+  readability-*,
+  -zircon-*
+FormatStyle: file
+...

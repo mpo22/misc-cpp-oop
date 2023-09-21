@@ -1,0 +1,12 @@
+---
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# predefined styles : LLVM, Google, Chromium, Mozilla, WebKit, Microsoft
+BasedOnStyle: Chromium
+---
+Language: Cpp
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit: 120
+#NamespaceIndentation: All
+SortIncludes: true
+IncludeBlocks: Preserve
+---
